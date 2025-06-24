@@ -1,15 +1,22 @@
-<h1 align="center">Relay — Real-Time Full-Stack Messaging Platform</h1>
-<p align="center"><a href="#project-description">Project Description</a> - <a href="#key-features">Key Features</a> - <a href="#tech-stack">Tech Stack</a> - <a href="#getting-started">Getting Started</a></p>
+<h1 align="center"> Relay — A Real-Time Full-Stack Messaging Platform</h1>
 
-<img src="" alt="" align="center" width="auto" height="auto">
+<p align="center">
+  <a href="#project-description">Description</a> • 
+  <a href="#key-features">Features</a> • 
+  <a href="#tech-stack">Tech Stack</a> • 
+  <a href="#getting-started">Getting Started</a>
+</p>
 
-## Project Description
+---
 
-**Relay** is a fully functional, real-time messaging platform built with a modern tech stack. It allows users to sign up, log in, view other users, and exchange messages instantly. The app supports both text and media messages, and provides a responsive, dark-themed interface for a polished user experience.
+## 🚀 Project Description
 
-The backend securely manages user authentication and session handling, while the frontend offers a smooth messaging experience with dynamic updates and media previews.
+**Relay** is a modern, real-time messaging web application that mimics the feel of today’s top messaging platforms. With secure authentication, dynamic WebSocket-based communication, and a polished responsive UI, it delivers a seamless chat experience. Whether you’re sending text, photos, or videos, everything happens in real-time — no refresh required.
 
-## Key Features
+The project demonstrates full-stack proficiency with features like JWT-based authentication, password hashing via `bcryptjs`, file uploads to **Cloudinary**, and live updates via **native WebSockets** — all built around a **clean modular architecture** in both frontend and backend.
+
+---
+## ✨ Key Features
 
 **User Authentication:**
 
@@ -35,15 +42,16 @@ The backend securely manages user authentication and session handling, while the
 **Polished UI/UX:**
 
 *   Built with **TailwindCSS**, **Radix UI**, and **ShadCN** components.
-*   Dark mode styling across all pages.
+*   Fully responsive UI designed from scratch with a sleek modern look.
+*   Custom scrollbars, rounded message bubbles, and subtle hover effects.
 *   Profile dropdown with logout and user info options.
 
-**Modular Architecture:**
+**Clean Code Architecture:**
 
 *   Backend uses **Express.js** (ESM) with clear separation of routes, controllers, models, and middlewares.
 *   Frontend uses Next.js App Router, with context for global user state, organized components, and axios-based API communication.
 
-## Tech Stack
+##  🛠 Tech Stack
 
 | Layer        | Technology                                  |
 | ------------ | ------------------------------------------- |
@@ -54,7 +62,7 @@ The backend securely manages user authentication and session handling, while the
 | Media Upload | Cloudinary                                  |
 | Auth         | JWT + HTTP-only Cookies                     |
 
-## Getting Started
+## 🧑‍💻 Getting Started
 
 To get this project up and running locally, follow the steps below.
 
