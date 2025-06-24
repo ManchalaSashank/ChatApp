@@ -1,5 +1,5 @@
 <h1 align="center">Relay — Real-Time Full-Stack Messaging Platform</h1>
-<p align="center"><a href="#project-description">Project Description</a> - <a href="#key-features">Key Features</a> - <a href="#technology-stack">Tech Stack</a> - <a href="#Getting Started">Getting Started</a></p>
+<p align="center"><a href="#project-description">Project Description</a> - <a href="#key-features">Key Features</a> - <a href="#tech-stack">Tech Stack</a> - <a href="#getting-started">Getting Started</a></p>
 
 <img src="" alt="" align="center" width="auto" height="auto">
 
