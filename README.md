@@ -1,10 +1,10 @@
 <h1 align="center"> Relay — A Real-Time Full-Stack Messaging Platform</h1>
 
 <p align="center">
-  <a href="#project-description">Description</a> • 
-  <a href="#key-features">Features</a> • 
-  <a href="#tech-stack">Tech Stack</a> • 
-  <a href="#getting-started">Getting Started</a>
+  <a href="#-project-description">Description</a> • 
+  <a href="#-key-features">Features</a> • 
+  <a href="#-tech-stack">Tech Stack</a> • 
+  <a href="#-getting-started">Getting Started</a>
 </p>
 
 ---
