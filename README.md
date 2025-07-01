@@ -11,11 +11,12 @@
 
 ## 🚀 Project Description
 
-**Relay** is a modern, real-time messaging web application that mimics the feel of today’s top messaging platforms. With secure authentication, dynamic WebSocket-based communication, and a polished responsive UI, it delivers a seamless chat experience. Whether you’re sending text, photos, or videos, everything happens in real-time — no refresh required.
+**Relay** is a modern, real-time messaging web application that mimics the feel of today’s top messaging platforms. With secure authentication, dynamic **Socket.IO-based** communication, and a polished responsive UI, it delivers a seamless chat experience. Whether you’re sending text, photos, or videos, everything happens in real-time — no refresh required.
 
-The project demonstrates full-stack proficiency with features like JWT-based authentication, password hashing via `bcryptjs`, file uploads to **Cloudinary**, and live updates via **native WebSockets** — all built around a **clean modular architecture** in both frontend and backend.
+The project demonstrates full-stack proficiency with features like JWT-based authentication, password hashing via `bcryptjs`, file uploads to **Cloudinary**, and live updates via **Socket.IO** — all built around a **clean modular architecture** in both frontend and backend.
 
 ---
+
 ## ✨ Key Features
 
 **User Authentication:**
@@ -24,9 +25,9 @@ The project demonstrates full-stack proficiency with features like JWT-based aut
 *   **JWT-based** token system stored in HTTP-only cookies for session protection.
 *   Option to persist sessions or expire on browser close.
 
-**Real Time Messaging**:
+**Real-Time Messaging:**
 
-*   Instant delivery of messages using **WebSockets**.
+*   Instant delivery of messages using **Socket.IO**.
 *   Automatic message updates between users without needing refresh.
 
 **Media Sharing:**
@@ -49,18 +50,23 @@ The project demonstrates full-stack proficiency with features like JWT-based aut
 **Clean Code Architecture:**
 
 *   Backend uses **Express.js** (ESM) with clear separation of routes, controllers, models, and middlewares.
-*   Frontend uses Next.js App Router, with context for global user state, organized components, and axios-based API communication.
+*   Frontend uses **Next.js App Router**, with context for global user state and Socket.IO-based real-time communication.
+*   All API communication handled cleanly with Axios.
 
-##  🛠 Tech Stack
+---
+
+## 🛠 Tech Stack
 
 | Layer        | Technology                                  |
 | ------------ | ------------------------------------------- |
 | Frontend     | Next.js 14, TailwindCSS, ShadCN, Radix UI   |
 | Backend      | Express.js, **bcryptjs** for password hashing, JWT, Cookie Parser |
 | Database     | MongoDB with Mongoose ODM                   |
-| Realtime     | Native WebSockets                           |
+| Realtime     | **Socket.IO**                               |
 | Media Upload | Cloudinary                                  |
 | Auth         | JWT + HTTP-only Cookies                     |
+
+---
 
 ## 🧑‍💻 Getting Started
 
